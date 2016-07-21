@@ -15,3 +15,9 @@ riro
 It also makes a copies your .bash_profile beforehand into .bash_profile.riro for safekeeping.
 
 Change project? Just run `riro` again!
+
+## Installation
+
+```
+npm install -g riro
+```
