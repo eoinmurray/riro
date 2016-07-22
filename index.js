@@ -24,7 +24,7 @@ fs.exists(bashProfile, function(exists){
 
       var lines = ''
       var found = false
-      var newAlias = `alias p= 'cd ${cwd}'\n`
+      var newAlias = `alias p='cd ${cwd}'\n`
       lineReader.on('line', function (line) {
         if (line.startsWith('alias p=')){
           lines += newAlias
