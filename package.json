@@ -1,6 +1,6 @@
 {
   "name": "riro",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Set the alias p to ${pwd}",
   "main": "index.js",
   "scripts": {
